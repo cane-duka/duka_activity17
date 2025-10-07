@@ -1,0 +1,79 @@
+body {
+   background-color: rgb(0, 76, 148);
+   color: white;
+}
+.one a{
+    color: rgb(21, 0, 255);
+}
+.card {
+    width: 350px;
+    height: 700;
+    padding-top: 10px;
+    padding-right: 15px;  
+    padding-left: 15px;
+    border: 2px solid darkblue;
+    text-align: center;
+    margin:auto;
+    background-color: lightblue;
+    color: black;
+}
+.card h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h4 {
+    font-family: times 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.card p {
+    text-decoration: underline;
+    font-style: normal;
+}
+.card b {
+    color: rgb(227, 166, 34);
+}
+.two b {
+    font-style: italic;
+    color: rgb(234, 175, 49);
+    text-decoration: underline;
+}
+.two ul {
+    color: rgb(255, 177, 8);
+}
+.two a  {
+    text-decoration: underline;
+    color: rgb(0, 200, 255);
+}
+.two img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2xp solid rgba(255, 255, 255, 0.648);
+    transition: all ease-in-out;
+    border: 2px double blue;
+}
+.two img:hover{
+    width: 25%;
+}
+.four img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2xp solid rgba(255, 255, 255, 0.648);
+    transition: all ease-in-out;
+    border: 4px solid black;
+}
+.four img:hover{
+    width: 25%;
+}
+.four ul{
+    color: rgb(255, 177, 8);
+}
+.five {
+    color: rgb(10, 9, 9);
+}
+.five i{
+    color: red;
+}
